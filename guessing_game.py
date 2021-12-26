@@ -25,7 +25,7 @@ def start_game():
             attempts += 1
             if guess < 1:
                 print("Sorry, this number is outside of the stated range 1 and 15")
-            elif guess > 10:
+            elif guess > 15:
                 print("Sorry, this number is outside of the stated range range 1 and 15")
             elif guess > num:
                 print("It's lower")
