@@ -40,11 +40,11 @@ def start_game():
             print("The following value is not a number. Please try again and select a number between 1 and 15")    
             continue    
             
-    newgame = input("Thanks for playing {}. WOuld you like to play again? Yes/No ".format(name))
+    newgame = input("Thanks for playing {}. Would you like to play again? Yes/No ".format(name))
     if newgame.lower() == "yes":
         start_game()
     else:
-        print("Good Bye")
+        print("Good bye and have a great day!")
 
 
     
